@@ -1,0 +1,167 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: yellow;
+}
+
+.section-heading {
+  font-weight: bold;
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: black;
+  color: #fff;
+}
+
+.yellow-section {
+  background-color: yellow;
+}
+
+.navbar {
+  padding: 2rem 4.5rem;
+  background-color: yellow;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: black !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color: black !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+}
+
+.buy-now-button {
+  margin: 5% 3% 5% 0;
+  font-weight: bold;
+  border-color: yellow;
+  color: yellow;
+}
+
+.buy-now-button:hover {
+  background-color: yellow;
+  border-color: yellow;
+  color: #000;
+}
+
+#title {
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 4.5rem;
+}
+
+.title-image {
+  width: 100%;
+  margin-left: 10%;
+}
+
+#features {
+  position: relative;
+  background-color: yellow;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: 'Montserrat';
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+#brands {
+  background-color: #000;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  background-color: yellow;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: yellow;
+}
+
+.card-header{
+  background-color: black;
+  border-color: yellow;
+  color: yellow;
+}
+
+h3{
+  font-family: 'Montserrat';
+}
+
+.card{
+  background-color: black;
+  border-color: yellow;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.footer{
+  color: black;
+  font-weight: bold;
+}
+
+.social-icon {
+  margin-right: 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
